@@ -29,33 +29,33 @@ if(isset($_GET['success'])){
 					<div class="col-md-12 calc_number" id="test">0</div>
 				</div>
 				<div class="row calc-buttons">
-					<button class="col-md-5 calc-button-red" onclick="ac();">AC</button>
-					<button class="col-md-4 calc-button-red" onclick="document.location.href='save_calculations.php?sum='+encodeURIComponent(headerSum)">SAVE</button>
-					<button class="col-md-3 calc-button-orange" onclick="append('/');">/</button>
+					<button class="col-md-5 col-sm-5 col-xs-5 calc-button-red" onclick="ac();">AC</button>
+					<button class="col-md-4 col-sm-4 col-xs-4 calc-button-red" onclick="document.location.href='save_calculations.php?sum='+encodeURIComponent(headerSum)">SAVE</button>
+					<button class="col-md-3 col-sm-3 col-xs-3 calc-button-orange" onclick="append('/');">&divide;</button>
 				</div>
 				<div class="row calc-buttons">
-					<button class="col-md-3 calc-button-pink" onclick="append('.');">.</button>
-					<button class="col-md-3 calc-button-pink" onclick="append(0);">0</button>
-					<button class="col-md-3 calc-button-pink" id="button-empty">#</button>
-					<button class="col-md-3 calc-button-orange" onclick="append('*');">x</button>
+					<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append('.');">.</button>
+					<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append(0);">0</button>
+					<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" id="button-empty">#</button>
+					<button class="col-md-3 col-sm-3 col-xs-3 calc-button-orange" onclick="append('*');">&times;</button>
 				</div>
 				<div class="row calc-buttons">
-					<button class="col-md-3 calc-button-pink" onclick="append(1);">1</button>
-					<button class="col-md-3 calc-button-pink" onclick="append(2);">2</button>
-					<button class="col-md-3 calc-button-pink" onclick="append(3);">3</button>
-					<button class="col-md-3 calc-button-orange" onclick="append('-');">-</button>
+					<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append(1);">1</button>
+					<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append(2);">2</button>
+					<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append(3);">3</button>
+					<button class="col-md-3 col-sm-3 col-xs-3 calc-button-orange" onclick="append('-');">&minus;</button>
 				</div>
 				<div class="row calc-buttons">
-				<button class="col-md-3 calc-button-pink" onclick="append(4);">4</button>
-				<button class="col-md-3 calc-button-pink" onclick="append(5);">5</button>
-				<button class="col-md-3 calc-button-pink" onclick="append(6);">6</button>
-				<button class="col-md-3 calc-button-orange" onclick="append('+');">+</button>
+				<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append(4);">4</button>
+				<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append(5);">5</button>
+				<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append(6);">6</button>
+				<button class="col-md-3 col-sm-3 col-xs-3 calc-button-orange" onclick="append('+');">&plus;</button>
 				</div>
 				<div class="row calc-buttons">
-				<button class="col-md-3 calc-button-pink" onclick="append(7);">7</button>
-				<button class="col-md-3 calc-button-pink" onclick="append(8);">8</button>
-				<button class="col-md-3 calc-button-pink" onclick="append(9);">9</button>
-				<button class="col-md-3 calc-button-orange" onclick="append('=');">=</button>
+				<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append(7);">7</button>
+				<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append(8);">8</button>
+				<button class="col-md-3 col-sm-3 col-xs-3 calc-button-pink" onclick="append(9);">9</button>
+				<button class="col-md-3 col-sm-3 col-xs-3 calc-button-orange" onclick="append('=');">&equals;</button>
 				</div>
 			</div>
 			<script src="control.js"></script>
