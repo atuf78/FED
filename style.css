@@ -4,3 +4,47 @@ button {
 	font-size: 26px;
 	font-family:Arial;
 }
+
+.container-fluid {
+    width: 300px;
+    background: white;
+}
+
+.calculation {
+	height: 80px;
+	width:inherit;
+	background: #29363b;
+	word-break: break-word;
+  font-size: 30px;
+	color: white;
+}
+.calculation-header {
+	font-size: 23px;
+	align-items: center;
+	color: #71797d;
+}
+.calc_number{
+	text-align:right;
+}
+#header {
+	padding-top: 50px;
+	padding-left: 20px; 
+}
+#button-empty {
+	text-indent: -9999px;
+}
+.calc-buttons{
+	border-bottom: 1px solid #e24d4d;
+}
+.calc-buttons button  {
+	height: 75px;
+}
+.calc-button-pink {
+	background-color: #f6827a;
+}
+.calc-button-red {
+	background-color: #e24d4d;
+}
+.calc-button-orange{
+	background-color: #fcc99c;
+}
