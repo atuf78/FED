@@ -11,7 +11,7 @@ if(isset($_GET['success'])){
 <!doctype html>
 <html lang="en">
         <header>
-			<title>FED Text</title>
+			<title>FED Test</title>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" media="screen">
@@ -30,7 +30,7 @@ if(isset($_GET['success'])){
 				</div>
 				<div class="row calc-buttons">
 					<button class="col-md-5 calc-button-red" onclick="ac();">AC</button>
-					<button class="col-md-4 calc-button-red" onclick="document.location.href='saveCalculation.php?sum='+encodeURIComponent(headerSum)">SAVE</button>
+					<button class="col-md-4 calc-button-red" onclick="document.location.href='save_calculations.php?sum='+encodeURIComponent(headerSum)">SAVE</button>
 					<button class="col-md-3 calc-button-orange" onclick="append('/');">/</button>
 				</div>
 				<div class="row calc-buttons">
@@ -58,7 +58,7 @@ if(isset($_GET['success'])){
 				<button class="col-md-3 calc-button-orange" onclick="append('=');">=</button>
 				</div>
 			</div>
-			<script src="calcControl.js"></script>
+			<script src="control.js"></script>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
