@@ -30,7 +30,7 @@ if(isset($_GET['success'])){
 				</div>
 				<div class="row calc-buttons">
 					<button class="col-md-5 col-sm-5 col-xs-5 calc-button-red" onclick="ac();">AC</button>
-					<button class="col-md-4 col-sm-4 col-xs-4 calc-button-red" onclick="document.location.href='save_calculations.php?sum='+encodeURIComponent(headerSum)">SAVE</button>
+					<button class="col-md-4 col-sm-4 col-xs-4 calc-button-red" onclick="document.location.href='save_calculations.php?sum='+encodeURIComponent(calresult)">SAVE</button>
 					<button class="col-md-3 col-sm-3 col-xs-3 calc-button-orange" onclick="append('/');">&divide;</button>
 				</div>
 				<div class="row calc-buttons">

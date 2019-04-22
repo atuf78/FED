@@ -3,6 +3,7 @@ header = document.getElementById('header');
 var firstNum;
 var secondNum;
 var headerSum;
+var calresult;
 var isAnswered;
 function append(userInput){
 	if(userInput == '+' || userInput == '-' || userInput == '*' || userInput == '/' || userInput == '='){
@@ -13,6 +14,7 @@ function append(userInput){
 		header.innerHTML = headerSum;
 		isAnswered = true;
 		userInput = eval(userInput);
+		calresult = eval(userInput);
 		} else {
 		userInput = ' '+userInput+' ';
 		}
